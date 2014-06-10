@@ -30,6 +30,7 @@
 #include <linux/blkdev.h>
 #include <linux/mutex.h>
 #include <linux/scatterlist.h>
+#include <linux/bitops.h>
 #include <linux/string_helpers.h>
 #include <linux/delay.h>
 #include <linux/capability.h>

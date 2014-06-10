@@ -15,6 +15,7 @@
 #include <linux/freezer.h>
 #include <linux/kthread.h>
 #include <linux/scatterlist.h>
+#include <linux/bitops.h>
 
 #include <linux/mmc/card.h>
 #include <linux/mmc/host.h>
