@@ -906,7 +906,7 @@ void max77804k_muic_send_event(int val)
 	kobject_uevent_env(&gInfo->dev->kobj, KOBJ_CHANGE, envp);
 }
 
-extern int system_rev;
+extern unsigned int system_rev;
 
 #if 0
 static void max77804k_muic_set_cddelay(struct max77804k_muic_info *info)
